@@ -1,0 +1,62 @@
+footer{
+    background-color: rgb(0, 162, 255);
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    float: left;
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+
+/****************************/
+
+.board-container .settings-form {
+    text-align: center;
+    margin: 30px auto auto auto;
+}
+
+.board-container .settings-form .input-group{
+    margin: 10px auto;
+}
+
+.board-container .board-game {
+    width: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 50px auto auto auto;
+}
+
+.board-container .board-game .board-square {
+    background: rgb(218, 214, 210);
+    padding-top: 100%;
+    position: relative;
+}
+
+.board-container .board-game .board-square .mark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+
+    pointer-events: none;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+  }
