@@ -16,6 +16,7 @@ footer a{
 /****************************/
 
 .board-container .settings-form {
+    width: 50%;
     text-align: center;
     margin: 30px auto auto auto;
 }
@@ -30,6 +31,10 @@ footer a{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
     margin: 50px auto auto auto;
+}
+
+.board-container .board-game.disabled .board-square {
+    background: white;
 }
 
 .board-container .board-game .board-square {
@@ -59,4 +64,8 @@ footer a{
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-  }
+
+.board-container .ranking-board{
+    width: 20%;
+    float: right;
+}

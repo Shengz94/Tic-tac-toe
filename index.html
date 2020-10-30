@@ -5,12 +5,22 @@
 
 <body>
     <div class="board-container">
+        <!--<div class="ranking-board">
+            <div class="ranking">
+                <table>
+                    <tr>
+                        <th>Player name</th>
+                        <th></th>
+                    </tr>
+                </table>
+            </div>
+        </div>-->
         <div class="settings-form">
-            <div class="input-group"><label>Player 1: </label><input type="text" id="player1"></div>
-            <div class="input-group"><label>Player 2: </label><input type="text" id="player2"></div>
+            <div class="input-group"><label>Player 1: </label><input type="text" id="player1"> <label>Win: </label><label id="player1Win"> </label></div>
+            <div class="input-group"><label>Player 2: </label><input type="text" id="player2"> <label>Win: </label><label id="player2Win"> </label></div>
             <button class="start-game">Start Game</button>
         </div>
-        <div class="board-game">
+        <div class="board-game disabled">
             <div class="board-square" id="11"><div class="mark"></div></div>
             <div class="board-square" id="12"><div class="mark"></div></div>
             <div class="board-square" id="13"><div class="mark"></div></div>
@@ -21,6 +31,7 @@
             <div class="board-square" id="32"><div class="mark"></div></div>
             <div class="board-square" id="33"><div class="mark"></div></div>
         </div>
+        
     </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
