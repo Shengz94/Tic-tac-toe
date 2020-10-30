@@ -103,7 +103,7 @@ const Gameboard = (() => {
     rawData = localStorage.getItem("tic-tac-toePlayers");
     if(rawData != null){
         playerCollection = JSON.parse(rawData);
-        DisplayController.initRanking(playerCollection);
+        //DisplayController.initRanking(playerCollection);
     }
 
     return {setPlayer, addMove, newUser}
